@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display : flex;
+    background: #ccc;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-wrapper {
+    display: flex;
+    width: 80%;
+    flex-flow: column wrap;
+}
+
+.box {
+    border-radius:  8px;
+    box-shadow: 0 0 5px 5px #555;
+    background: #fff;
+    margin-bottom: 20px;
+    padding:40px;
+    font-size : 26px;
+    flex: 1 0 auto;
+}
+
+header {
+    min-height: 300px;
+}
+
+main,aside {
+ min-height: 400px;
+}
+
+footer {
+    min-height: 200px;
+}
+
+.main-and-aside {
+    display : flex;
+    flex-flow : row nowrap;
+    justify-content: space-between;
+}
+
+ main.box {
+    flex : 0 0 65%;
+ }
+
+ aside.box {
+    flex : 0 0 30%;
+ }

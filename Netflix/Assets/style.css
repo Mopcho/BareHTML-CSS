@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #141414;
+}
+
+header {
+    display : flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cataloge {
+    min-width: 40%;
+}
+
+.options-menu {
+    min-width: 20%;
+}
+.cataloge ul {
+    display:flex;
+    flex-flow:row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.cataloge ul a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.options-menu ul {
+    display:flex;
+    flex-flow:row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.options-menu ul a {
+    text-decoration: none;
+}
